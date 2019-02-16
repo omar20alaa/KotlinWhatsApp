@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardCornerRadius="@dimen/_2sdp"
+        app:cardElevation="@dimen/_6sdp"
+        android:layout_margin="@dimen/_6sdp"
+        >
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/_3sdp"
+            >
+
+
+        <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/messangerImageView"
+                android:layout_width="@dimen/_50sdp"
+                android:layout_height="@dimen/_50sdp"
+                android:src="@drawable/profile_img"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                />
+
+        <TextView
+                android:id="@+id/messageTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Message"
+                app:layout_constraintStart_toEndOf="@id/messangerImageView"
+                app:layout_constraintTop_toTopOf="parent"
+                android:layout_marginTop="@dimen/_6sdp"
+                android:layout_marginStart="@dimen/_8sdp"
+                android:textColor="@color/black"
+                android:padding="@dimen/_5sdp"
+                />
+
+        <TextView
+                android:id="@+id/messangerTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Name of messanger"
+                app:layout_constraintTop_toBottomOf="@+id/messageTextView"
+                app:layout_constraintStart_toEndOf="@id/messangerImageView"
+                android:layout_marginStart="@dimen/_8sdp"
+                android:layout_marginTop="@dimen/_6sdp"
+                android:textStyle="italic"
+                android:textColor="@color/black"
+                android:background="@drawable/rounded_corner2"
+                android:padding="@dimen/_5sdp"
+                />
+
+
+        <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/profileImageViewRight"
+                android:layout_width="@dimen/_50sdp"
+                android:layout_height="@dimen/_50sdp"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                android:layout_marginTop="@dimen/_8sdp"
+                android:visibility="gone"
+                />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+</com.google.android.material.card.MaterialCardView>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+
+    <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/customBarCircleImage"
+            android:layout_width="@dimen/_30sdp"
+            android:layout_height="@dimen/_30sdp"
+            android:layout_alignParentRight="true"
+            android:src="@drawable/profile_img"
+            />
+
+
+    <TextView
+            android:id="@+id/customBarName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textColor="@color/grey_100"
+            android:text="Display name"
+            android:paddingLeft="@dimen/_15sdp"
+            android:textSize="@dimen/_18sdp"
+            />
+
+
+</RelativeLayout>

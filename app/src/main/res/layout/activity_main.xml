@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/bg"
+        >
+
+
+    <ImageView
+            android:id="@+id/img_chat"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_90sdp"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toTopOf="@+id/tv_title"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            android:src="@drawable/chat_icon"
+            android:layout_marginTop="@dimen/_30sdp"
+            />
+
+    <TextView
+            android:id="@+id/tv_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:layout_constraintTop_toBottomOf="@+id/img_chat"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintBottom_toTopOf="@+id/btn_have_account"
+            android:text="@string/welcome_text"
+            android:layout_marginTop="@dimen/_20sdp"
+            android:textSize="@dimen/_17sdp"
+            android:gravity="center"
+            android:textColor="@color/colorPrimary"
+            android:textStyle="bold"
+            />
+
+    <com.google.android.material.button.MaterialButton
+            android:id="@+id/btn_have_account"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintBottom_toTopOf="@+id/btn_need_account"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:ems="12"
+            android:backgroundTint="@color/colorPrimary"
+            app:rippleColor="@color/colorPrimary"
+            android:text="@string/have_account"
+            android:textColor="@color/white"
+            app:strokeColor="@color/white"
+            app:cornerRadius="@dimen/_10sdp"
+            android:textAllCaps="false"
+            />
+
+    <com.google.android.material.button.MaterialButton
+            android:id="@+id/btn_need_account"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintTop_toBottomOf="@+id/tv_title"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:ems="12"
+            android:backgroundTint="@color/colorPrimary"
+            app:rippleColor="@color/colorPrimary"
+            android:text="@string/need_account"
+            android:textColor="@color/white"
+            app:strokeColor="@color/white"
+            app:cornerRadius="@dimen/_10sdp"
+            android:textAllCaps="false"
+            />
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+

@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "22291810636",
+    "firebase_url": "https://kotlinwhatsapp-be9b9.firebaseio.com",
+    "project_id": "kotlinwhatsapp-be9b9",
+    "storage_bucket": "kotlinwhatsapp-be9b9.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:22291810636:android:07844ff53dec2c8a",
+        "android_client_info": {
+          "package_name": "com.whats_app.kotlinwhatsapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "22291810636-ov14bubsjf096gb29f6sqj68j8j6qs9k.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.whats_app.kotlinwhatsapp",
+            "certificate_hash": "7bb6497b7d3b2cebe4290955932b7ba0cc7248ae"
+          }
+        },
+        {
+          "client_id": "22291810636-rmp8g2g4tk3uail4angakmvc6aogqpsh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB8oDe7GTG7M85UfE7TWgtgSl6i3kUWwwI"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "22291810636-rmp8g2g4tk3uail4angakmvc6aogqpsh.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
